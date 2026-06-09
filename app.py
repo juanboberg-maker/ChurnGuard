@@ -425,11 +425,11 @@ C = {
 
 @st.cache_resource
 def cargar_modelo():
-    with open("model.pkl", "rb") as f:
+    with open("model/model.pkl", "rb") as f:
         model = pickle.load(f)
-    with open("scaler.pkl", "rb") as f:
+    with open("model/scaler.pkl", "rb") as f:
         scaler = pickle.load(f)
-    with open("features.pkl", "rb") as f:
+    with open("model/features.pkl", "rb") as f:
         features = pickle.load(f)
     return model, scaler, features
 
@@ -569,7 +569,7 @@ elif pagina == "02 · Los Datos":
 
     @st.cache_data
     def load_data():
-        return pd.read_csv("data/archive (2)/WA_Fn-UseC_-Telco-Customer-Churn.csv")
+        return pd.read_csv("data/telco_churn.csv")
     df = load_data()
 
     m1, m2, m3, m4 = st.columns(4)
@@ -659,7 +659,7 @@ elif pagina == "04 · Resultados":
     page_header("04 · Evaluación", "Resultados del modelo",
                 "Logistic Regression · threshold optimizado a 0.30 · coste FN/FP = 40:1")
 
-    with open("roc_data.json", "r") as f:
+    with open("model/roc_data.json", "r") as f:
         roc_data = json.load(f)
 
     m1, m2, m3, m4 = st.columns(4)
