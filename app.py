@@ -31,7 +31,7 @@ section[data-testid="stMain"] > div { background: #060c18; }
     width: 230px !important;
 }
 [data-testid="stSidebar"] > div:first-child { padding: 0; }
-[data-testid="stSidebar"] * { color: #7a9cbe !important; }
+[data-testid="stSidebar"] * { color: #ffffff !important; }
 [data-testid="stSidebar"] .stRadio > label { visibility: hidden; height: 0; margin: 0; padding: 0; }
 [data-testid="stSidebar"] .stRadio div[role="radiogroup"] {
     display: flex; flex-direction: column; gap: 1px;
@@ -54,13 +54,14 @@ section[data-testid="stMain"] > div { background: #060c18; }
 }
 [data-testid="stSidebar"] .stRadio label p {
     font-size: 0.8rem !important; letter-spacing: 0.01em; margin: 0 !important;
+    color: #ffffff !important;
 }
 
 h1, h2, h3, h4 {
     font-family: 'Sora', sans-serif !important;
     color: #dce9ff !important; letter-spacing: -0.025em;
 }
-p, span, li, td, th { color: #7a9cbe; }
+p, span, li, td, th { color: #ffffff; }
 hr { border: none !important; border-top: 1px solid rgba(82,167,255,0.08) !important; margin: 2.25rem 0 !important; }
 
 [data-testid="metric-container"] {
@@ -83,7 +84,7 @@ hr { border: none !important; border-top: 1px solid rgba(82,167,255,0.08) !impor
 [data-testid="metric-container"] label {
     font-size: 0.66rem !important; font-weight: 600 !important;
     letter-spacing: 0.11em !important; text-transform: uppercase !important;
-    color: #2e5070 !important;
+    color: #ffffff !important;
 }
 [data-testid="stMetricValue"] {
     font-family: 'Sora', sans-serif !important; font-size: 1.85rem !important;
@@ -137,7 +138,7 @@ hr { border: none !important; border-top: 1px solid rgba(82,167,255,0.08) !impor
 [data-testid="stSelectbox"] > div > div,
 [data-testid="stNumberInput"] > div > div > input {
     background: #080f1e !important; border-color: rgba(82,167,255,0.13) !important;
-    color: #a8c4e0 !important; border-radius: 8px !important;
+    color: #ffffff !important; border-radius: 8px !important;
     font-size: 0.85rem !important;
 }
 
@@ -157,7 +158,7 @@ hr { border: none !important; border-top: 1px solid rgba(82,167,255,0.08) !impor
     font-size: 0.68rem; font-weight: 600; letter-spacing: 0.07em;
     text-transform: uppercase; font-family: 'Inter', sans-serif;
 }
-.badge-blue   { background: rgba(82,167,255,0.1);  color: #7ab8f5; border: 1px solid rgba(82,167,255,0.18); }
+.badge-blue   { background: rgba(82,167,255,0.1);  color: #ffffff; border: 1px solid rgba(82,167,255,0.18); }
 .badge-red    { background: rgba(239,68,68,0.1);   color: #fca5a5; border: 1px solid rgba(239,68,68,0.22); }
 .badge-green  { background: rgba(52,211,153,0.1);  color: #6ee7b7; border: 1px solid rgba(52,211,153,0.22); }
 .badge-amber  { background: rgba(245,158,11,0.1);  color: #fcd34d; border: 1px solid rgba(245,158,11,0.22); }
@@ -188,13 +189,13 @@ hr { border: none !important; border-top: 1px solid rgba(82,167,255,0.08) !impor
 }
 .stat-card .sc-label {
     font-size: 0.65rem; font-weight: 600; letter-spacing: 0.1em;
-    text-transform: uppercase; color: #2e5070; margin-bottom: 0.6rem;
+    text-transform: uppercase; color: #ffffff; margin-bottom: 0.6rem;
 }
 .stat-card .sc-value {
     font-family: 'Sora', sans-serif; font-size: 2.3rem; font-weight: 700;
     color: #dce9ff; line-height: 1; margin-bottom: 0.35rem;
 }
-.stat-card .sc-sub { font-size: 0.73rem; color: #2e5070; line-height: 1.5; }
+.stat-card .sc-sub { font-size: 0.73rem; color: #ffffff; line-height: 1.5; }
 
 .icard {
     background: #07111f;
@@ -212,10 +213,10 @@ hr { border: none !important; border-top: 1px solid rgba(82,167,255,0.08) !impor
     font-family: 'Sora', sans-serif; font-size: 0.85rem;
     font-weight: 600; color: #b8d4f5; margin-bottom: 0.35rem;
 }
-.icard .ic-body { font-size: 0.8rem; color: #3d6585; line-height: 1.65; }
+.icard .ic-body { font-size: 0.8rem; color: #ffffff; line-height: 1.65; }
 .icard code {
     font-family: 'JetBrains Mono', monospace; font-size: 0.76rem;
-    background: rgba(82,167,255,0.08); color: #7ab8f5;
+    background: rgba(82,167,255,0.08); color: #ffffff;
     padding: 1px 5px; border-radius: 4px;
 }
 
@@ -235,13 +236,13 @@ hr { border: none !important; border-top: 1px solid rgba(82,167,255,0.08) !impor
 .cost-card:hover { border-color: rgba(82,167,255,0.22); transform: translateY(-2px); }
 .cost-card .cc-label {
     font-size: 0.63rem; font-weight: 600; letter-spacing: 0.1em;
-    text-transform: uppercase; color: #2e5070; margin-bottom: 0.55rem;
+    text-transform: uppercase; color: #ffffff; margin-bottom: 0.55rem;
 }
 .cost-card .cc-value {
     font-family: 'Sora', sans-serif; font-size: 2.2rem; font-weight: 700;
     line-height: 1; margin-bottom: 0.4rem;
 }
-.cost-card .cc-desc { font-size: 0.73rem; color: #2e5070; line-height: 1.55; }
+.cost-card .cc-desc { font-size: 0.73rem; color: #ffffff; line-height: 1.55; }
 
 .hero-wrapper {
     background: #07111f;
@@ -278,7 +279,7 @@ hr { border: none !important; border-top: 1px solid rgba(82,167,255,0.08) !impor
 .hero-title .accent { color: #52a7ff; }
 .hero-title .accent-red { color: #f87171; }
 .hero-sub {
-    font-size: 0.95rem; color: #3d6585; line-height: 1.7;
+    font-size: 0.95rem; color: #ffffff; line-height: 1.7;
     max-width: 540px; margin-bottom: 1.75rem;
 }
 .hero-tag-row { display: flex; gap: 8px; flex-wrap: wrap; }
@@ -306,14 +307,14 @@ hr { border: none !important; border-top: 1px solid rgba(82,167,255,0.08) !impor
 }
 .result-panel.danger .rp-prob { color: #f87171; }
 .result-panel.safe .rp-prob   { color: #34d399; }
-.result-panel .rp-body { font-size: 0.8rem; color: #3d6585; line-height: 1.65; }
+.result-panel .rp-body { font-size: 0.8rem; color: #ffffff; line-height: 1.65; }
 .result-panel .rp-divider { border: none; border-top: 1px solid rgba(255,255,255,0.05); margin: 1rem 0; }
 
 .form-section-header {
     display: flex; align-items: center; gap: 8px;
     font-family: 'Sora', sans-serif; font-size: 0.75rem;
     font-weight: 600; letter-spacing: 0.09em; text-transform: uppercase;
-    color: #2e5070; margin-bottom: 1.1rem; padding-bottom: 0.55rem;
+    color: #ffffff; margin-bottom: 1.1rem; padding-bottom: 0.55rem;
     border-bottom: 1px solid rgba(82,167,255,0.07);
 }
 
@@ -327,7 +328,7 @@ hr { border: none !important; border-top: 1px solid rgba(82,167,255,0.08) !impor
     display: flex; align-items: center; gap: 7px;
 }
 .sb-logo-sub {
-    font-size: 0.63rem; color: #1a3a55; letter-spacing: 0.09em;
+    font-size: 0.63rem; color: #ffffff; letter-spacing: 0.09em;
     text-transform: uppercase; margin-top: 4px; padding-left: 1px;
 }
 .sb-status {
@@ -338,13 +339,13 @@ hr { border: none !important; border-top: 1px solid rgba(82,167,255,0.08) !impor
 }
 .sb-status-title {
     font-size: 0.61rem; font-weight: 600; letter-spacing: 0.1em;
-    text-transform: uppercase; color: #1a3a55; margin-bottom: 0.65rem;
+    text-transform: uppercase; color: #ffffff; margin-bottom: 0.65rem;
 }
 .sb-status-row {
     display: flex; justify-content: space-between; align-items: center;
     padding: 0.22rem 0; font-size: 0.7rem;
 }
-.sb-status-row .sk { color: #2e5070; }
+.sb-status-row .sk { color: #ffffff; }
 .sb-status-row .sv {
     color: #52a7ff; font-family: 'JetBrains Mono', monospace;
     font-size: 0.68rem; font-weight: 500;
@@ -354,17 +355,17 @@ hr { border: none !important; border-top: 1px solid rgba(82,167,255,0.08) !impor
     background: #34d399; margin-right: 5px;
     box-shadow: 0 0 6px rgba(52,211,153,0.6);
 }
-.sb-footer { margin: 1.5rem 1rem 0; font-size: 0.62rem; color: #142030; line-height: 1.7; }
+.sb-footer { margin: 1.5rem 1rem 0; font-size: 0.62rem; color: #ffffff; line-height: 1.7; }
 
 .section-eyebrow {
     font-size: 0.65rem; font-weight: 600; letter-spacing: 0.13em;
-    text-transform: uppercase; color: #2e5070;
+    text-transform: uppercase; color: #ffffff;
 }
 .section-title {
     font-family: 'Sora', sans-serif; font-size: 1.75rem; font-weight: 700;
     color: #dce9ff; letter-spacing: -0.025em; margin: 0.4rem 0 0.4rem; line-height: 1.15;
 }
-.section-subtitle { font-size: 0.87rem; color: #2e5070; margin-bottom: 1.85rem; line-height: 1.6; }
+.section-subtitle { font-size: 0.87rem; color: #ffffff; margin-bottom: 1.85rem; line-height: 1.6; }
 .section-header-block { margin-bottom: 1.75rem; }
 
 .conclusion-banner {
@@ -386,14 +387,14 @@ hr { border: none !important; border-top: 1px solid rgba(82,167,255,0.08) !impor
 }
 .conclusion-banner .cb-eyebrow {
     font-size: 0.65rem; font-weight: 600; letter-spacing: 0.13em;
-    text-transform: uppercase; color: #2e5070; margin-bottom: 0.9rem;
+    text-transform: uppercase; color: #ffffff; margin-bottom: 0.9rem;
 }
 .conclusion-banner .cb-title {
     font-family: 'Sora', sans-serif; font-size: 1.7rem;
     font-weight: 700; color: #dce9ff; margin-bottom: 0.55rem; line-height: 1.2;
 }
 .conclusion-banner .cb-number { color: #52a7ff; }
-.conclusion-banner .cb-sub { font-size: 0.82rem; color: #1e3d58; margin-top: 0.85rem; }
+.conclusion-banner .cb-sub { font-size: 0.82rem; color: #ffffff; margin-top: 0.85rem; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -403,21 +404,21 @@ GRID_COL = "rgba(82,167,255,0.06)"
 LINE_COL = "rgba(82,167,255,0.1)"
 
 PLOT_LAYOUT = dict(
-    font=dict(family="Inter", color="#3d6585", size=12),
+    font=dict(family="Inter", color="#ffffff", size=12),
     plot_bgcolor=PLOT_BG, paper_bgcolor=DARK_BG,
     margin=dict(t=44, b=40, l=48, r=32),
     xaxis=dict(showgrid=True, gridcolor=GRID_COL, linecolor=LINE_COL, zeroline=False, tickfont=dict(size=11)),
     yaxis=dict(showgrid=True, gridcolor=GRID_COL, linecolor=LINE_COL, zeroline=False, tickfont=dict(size=11)),
     hoverlabel=dict(bgcolor="#0a1828", font_size=12, font_family="Inter", bordercolor="rgba(82,167,255,0.18)"),
     colorway=["#52a7ff", "#f87171", "#34d399", "#fcd34d", "#c4b5fd"],
-    legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(color="#3d6585", size=11)),
+    legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(color="#ffffff", size=11)),
 )
 
 C = {
     "churn":    "#f87171",
     "no_churn": "#52a7ff",
     "accent":   "#52a7ff",
-    "muted":    "#2e5070",
+    "muted":    "#ffffff",
     "success":  "#34d399",
     "warning":  "#fcd34d",
     "purple":   "#c4b5fd",
@@ -569,7 +570,7 @@ elif pagina == "02 · Los Datos":
 
     @st.cache_data
     def load_data():
-        return pd.read_csv("data/telco_churn.csv")
+        return pd.read_csv("data/archive (2)/telco_churn.csv")
     df = load_data()
 
     m1, m2, m3, m4 = st.columns(4)
@@ -597,7 +598,7 @@ elif pagina == "02 · Los Datos":
                          labels={"count": "Clientes", "Churn": ""},
                          text=conteo.apply(lambda r: f"{r['count']:,}  ({r['pct']}%)", axis=1))
             fig.update_traces(textposition="outside", marker_line_width=0,
-                              textfont=dict(size=12, color="#7a9cbe"))
+                              textfont=dict(size=12, color="#ffffff"))
             fig.update_layout(**PLOT_LAYOUT, showlegend=False,
                               yaxis_title="Número de clientes", bargap=0.5)
             st.plotly_chart(fig, use_container_width=True)
@@ -624,8 +625,8 @@ elif pagina == "03 · El Modelo":
 
     def highlight_lr(row):
         if "✓" in str(row["Modelo"]):
-            return ["background-color: rgba(82,167,255,0.08); color: #7ab8f5; font-weight:600"] * len(row)
-        return ["color: #3d6585"] * len(row)
+            return ["background-color: rgba(82,167,255,0.08); color: #ffffff; font-weight:600"] * len(row)
+        return ["color: #ffffff"] * len(row)
 
     tab_t, tab_c = st.tabs(["  📊  Tabla comparativa  ", "  📈  Visualización  "])
     with tab_t:
@@ -705,8 +706,8 @@ elif pagina == "04 · Resultados":
 
         def hl_opt(row):
             if "optimizado" in row["Threshold"]:
-                return ["background-color: rgba(82,167,255,0.08); color:#7ab8f5; font-weight:600"] * len(row)
-            return ["color:#3d6585"] * len(row)
+                return ["background-color: rgba(82,167,255,0.08); color:#ffffff; font-weight:600"] * len(row)
+            return ["color:#ffffff"] * len(row)
 
         st.dataframe(df_thr.style.apply(hl_opt, axis=1), use_container_width=True, hide_index=True)
         st.markdown("<br>", unsafe_allow_html=True)
@@ -716,7 +717,7 @@ elif pagina == "04 · Resultados":
             x=["Threshold 0.50", "Threshold 0.30"], y=[236, 521],
             marker_color=[C["muted"], C["churn"]],
             text=[236, 521], textposition="outside",
-            textfont=dict(color="#7a9cbe", size=13), marker_line_width=0,
+            textfont=dict(color="#ffffff", size=13), marker_line_width=0,
         ))
         fig_compare.update_layout(**PLOT_LAYOUT, showlegend=False,
                                   yaxis_title="Churners detectados", bargap=0.5)
@@ -792,7 +793,7 @@ elif pagina == "05 · Predicción en Vivo":
             mode="gauge+number",
             value=round(prob * 100, 1),
             number=dict(suffix=" %", font=dict(size=46, family="Sora", color=gauge_color)),
-            title=dict(text="Probabilidad de Churn", font=dict(size=12, family="Inter", color="#2e5070")),
+            title=dict(text="Probabilidad de Churn", font=dict(size=12, family="Inter", color="#ffffff")),
             gauge=dict(
                 axis=dict(range=[0, 100], nticks=6,
                           tickfont=dict(size=10, family="Inter", color="#1a3a55"),
@@ -845,7 +846,7 @@ elif pagina == "05 · Predicción en Vivo":
                 st.markdown(f"""
                 <br>
                 <div style="font-size:0.63rem; font-weight:600; letter-spacing:0.11em;
-                            text-transform:uppercase; color:#2e5070; margin-bottom:0.6rem;">
+                            text-transform:uppercase; color:#ffffff; margin-bottom:0.6rem;">
                     Factores de riesgo detectados
                 </div>
                 <div>{pills_html}</div>
@@ -885,7 +886,7 @@ elif pagina == "06 · Conclusiones":
         st.markdown("""
         <div class="stat-card">
             <div class="sc-label">Churners detectados</div>
-            <div class="sc-value">521<span style="font-size:1.1rem; color:#2e5070;"> / 561</span></div>
+            <div class="sc-value">521<span style="font-size:1.1rem; color:#ffffff;"> / 561</span></div>
             <div class="sc-sub">Recall del 92.7 %</div>
         </div>
         """, unsafe_allow_html=True)
